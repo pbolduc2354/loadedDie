@@ -6,6 +6,7 @@ function makeLoadedDie() {
 
     return list[index++]
   }
+  console.log(makeLoadedDie)
 }
 
 var rollLoadedDie = makeLoadedDie();
